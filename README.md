@@ -20,13 +20,13 @@ $ cd all-animation.github.io/
 $ npm install
 ```
 
-*Run the Gulp command to watch all files*
+*Run the Gulp command to start a static server*
 
 ```
-$ gulp
+$ gulp serve
 ```
 
-*Now open the index.html file and done ;)*
+*Now go to http://localhost:8080/ and done ;)*
 
 ## License
 [MIT License](https://github.com/all-animation/all-animiation.github.io/blob/master/LICENSE.md) © [Clóvis Neto](http://clovisdasilvaneto.github.io/)
