@@ -103,6 +103,10 @@ a.btn-cta-secondary,
   margin-top: 20px;
   border-radius: 5px;
 }
+#download-content code[class*="language-"], #download-content pre[class*="language-"] {
+  direction: rtl;
+  padding-left: 2rem;
+}
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
   background: #00d76b;
