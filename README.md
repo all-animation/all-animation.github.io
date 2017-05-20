@@ -1,4 +1,4 @@
-[All Animation Website](http://all-animiation.github.io/)
+[All Animation Website](http://all-animation.github.io/)
 =====================
 
 ## Contributors:
