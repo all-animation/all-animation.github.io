@@ -1,0 +1,14 @@
+.template__footer {
+	p, a, span {
+		color: $white;
+	}
+
+	a {
+		@include prefix(transition, all ease-out .5s, moz ms o webkit);
+
+		&:hover {
+			color: $white!important;
+			box-shadow: 0 1px 0;
+		}
+	}
+}

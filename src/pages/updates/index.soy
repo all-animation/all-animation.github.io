@@ -48,9 +48,11 @@ updates:
 			<div>
 				<header class="header">
 					<div class="container">
-						<h1 class="header-title">{$page.title}</h1>
-						<h2 class="header-subtitle">{$page.description}</h2>
+						<h1 class="header-title atom__title">{$page.title}</h1>
+						<h2 class="header-subtitle atom__description">{$page.description}</h2>
 					</div>
+
+					<figure role="banner"><span class="montanhas-big" aria-label="montanhas"></span></figure>
 				</header>
 
 				{call ElectricUpdates.render}

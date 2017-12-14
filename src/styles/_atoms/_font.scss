@@ -1,0 +1,17 @@
+#wrapper {
+	.atom__bold {
+		font-weight: $bold;
+	}
+
+	.atom__center-text {
+		text-align: center;
+	}
+
+	.atom__description {
+		color: $light_dark;
+	}
+
+	.atom__title {
+		color: $dark;
+	}
+}

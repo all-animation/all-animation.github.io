@@ -1,0 +1,105 @@
+@import "marble";
+@import "../_base/base";
+
+.header {
+	padding-top: 10rem;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 0;
+	
+	.container {
+		height: calc(100vh - 60px - 10rem);
+		min-height: 600px;
+		max-height:828px;
+		position: relative;
+	}
+
+	h1 {
+		color: $primary;
+	}
+
+	.header-subtitle {
+		margin-bottom: 3rem;
+	}
+
+	.apresentation {
+		position: relative;
+		z-index:2;
+		text-align: left;
+	}
+
+	a:first-child {
+		margin-left: 0;
+	}
+}
+
+.about {
+	padding: 84px 0;
+
+	.about-title {
+		margin-top: 0;
+		margin-bottom: 3rem;
+		text-align: left;
+	}
+
+	.about-description {
+		color: $white;
+		font-size: 1.4rem;
+		line-height: 32px;
+		text-align: left;
+	}
+}
+
+.montanhas-big {
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 638px;
+	right: 650px;
+
+	&:before, &:after {
+		display: block;
+		content: "";
+		border: solid 20rem transparent;
+		position: absolute;
+	}
+
+	&:before {
+		border-right-width: 52px;
+		border-bottom-color: #00d76b;
+	}
+
+	&:after {
+		border-right-width: 342px;
+		border-bottom-color: #2dff96;
+		position: absolute;
+		left: 230px;
+		border-left-width: 90px;
+	}
+}
+
+.features {
+
+	.feature {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.feature-title {
+		color: $dark;
+		font-size: 1.4rem;
+		margin: 2rem 0;
+	}
+
+	.feature-description {
+		width: 220px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	span {
+		color: $accent;
+		font-size: 3rem!important;
+	}
+}

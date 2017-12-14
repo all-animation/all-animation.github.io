@@ -1,0 +1,11 @@
+.template__blog {
+	.content {
+		padding-bottom: 2rem;
+	}
+
+	#blog-title {
+		color: $dark!important;
+	}
+
+	@extend .template__guide;
+}

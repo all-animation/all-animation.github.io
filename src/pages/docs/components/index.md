@@ -1,9 +1,9 @@
 ---
-title: "Deploy"
-description: "Sapien in monti palavris qui num significa nadis i pareci latim. in elementis mé pra quem é amistosis quis leo. Mais vale um bebadis conhecidiss, que um alcoolatra anonimiss. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."
+title: "Components"
+description: "Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum."
 layout: "guide"
-icon: "cloud"
-weight: 4
+icon: "hammer"
+weight: 3
 ---
 
 ###### {$page.description}
@@ -12,15 +12,18 @@ weight: 4
 
 ## Lorem ipsum dolor sit amet
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
 ```javascript
-alert('Hello World');
+var hello = function() {
+	console.log('Hello, World!');
+};
 ```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
 

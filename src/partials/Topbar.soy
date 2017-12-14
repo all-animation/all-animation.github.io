@@ -5,7 +5,7 @@
  * @param site
  */
 {template .render}
-	<nav class="topbar topbar-light {$elementClasses ? ' ' + $elementClasses : ''}">
+	<nav class="topbar organism__topbar topbar-light {$elementClasses ? ' ' + $elementClasses : ''}">
 		{call .logo data="all" /}
 		{call .menu data="all" /}
 	</nav>
@@ -34,4 +34,7 @@
 		{param listItemClasses: 'topbar-item' /}
 		{param section: $site.index /}
 	{/call}
+
+	<a href="https://github.com/all-animation/all-animation" class="lnk-fork"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 9999990;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
 {/template}

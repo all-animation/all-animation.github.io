@@ -1,0 +1,36 @@
+@import "../_atoms/atoms";
+
+#wrapper .template__guide {
+	p:not([class]), a, span, li {
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	p:not([class]) {
+		color: $dark;
+	}
+
+	h2, h4, h3 {
+		color: $primary;
+	}
+
+	h5, h6 {
+		color: $light_dark;
+		font-size: 20px;
+		line-height:30px;
+	}
+
+	h1 {
+		color: $dark!important;
+	}
+
+	a {
+		color: $accent;
+	}
+}
+
+
+.radial-out:hover .topic-title, .radial-out:focus .topic-title {
+	color: $white!important;
+}

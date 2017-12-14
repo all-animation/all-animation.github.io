@@ -1,0 +1,17 @@
+.organism__highlight {
+	.atom__figure-animated {
+		clear: both;
+		display: inline-block;
+		text-align: center;
+		position: relative;
+	}
+
+	.dropdown-menu {
+		max-height: 130px;
+		overflow: auto;
+	}
+
+	button {
+		margin: 4px;
+	}
+}

@@ -1,0 +1,9 @@
+.molecule__autocomplete--list {
+	p.autocomplete-text {
+		color: $dark;
+	}
+}
+
+.autocomplete-list {
+	@extend .molecule__autocomplete--list;
+}

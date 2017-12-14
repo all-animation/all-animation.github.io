@@ -1,4 +1,5 @@
-$accent: #4285F4;
+//Base config files
+@import "_base/base";
 
 @import "marble";
 
@@ -22,3 +23,20 @@ $accent: #4285F4;
 
 // Tutorial
 @import "templates/tutorial";
+
+//Atoms
+@import "_atoms/atoms";
+
+//Molecules
+@import "_molecules/molecules";
+
+//Organism
+@import "_organism/organism";
+
+//Templates
+@import "_atomic-templates/atomic-templates";
+
+//Pages
+@import "_pages/pages";
+
+@import "custom-electric-components";

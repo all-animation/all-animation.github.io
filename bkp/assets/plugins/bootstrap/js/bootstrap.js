@@ -774,7 +774,7 @@ if (typeof jQuery === 'undefined') {
 
     if (!isActive) {
       if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
-        // if mobile we use a backdrop because click events don't delegate
+        // if mobile we how-to-use a backdrop because click events don't delegate
         $('<div class="dropdown-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
       }
 
@@ -1424,7 +1424,7 @@ if (typeof jQuery === 'undefined') {
     offset.left = offset.left + marginLeft
 
     // $.fn.offset doesn't round pixel values
-    // so we use setOffset directly with our own function B-0
+    // so we how-to-use setOffset directly with our own function B-0
     $.offset.setOffset($tip[0], $.extend({
       using: function (props) {
         $tip.css({
@@ -1681,7 +1681,7 @@ if (typeof jQuery === 'undefined') {
     this.init('popover', element, options)
   }
 
-  if (!$.fn.tooltip) throw new Error('Popover requires tooltip.js')
+  if (!$.fn.tooltip) throw new Error('Popover requires tooltip.scripts')
 
   Popover.VERSION  = '3.3.0'
 
@@ -1710,7 +1710,7 @@ if (typeof jQuery === 'undefined') {
     var content = this.getContent()
 
     $tip.find('.popover-title')[this.options.html ? 'html' : 'text'](title)
-    $tip.find('.popover-content').children().detach().end()[ // we use append for html objects to maintain js events
+    $tip.find('.popover-content').children().detach().end()[ // we how-to-use append for html objects to maintain js events
       this.options.html ? (typeof content == 'string' ? 'html' : 'append') : 'text'
     ](content)
 
