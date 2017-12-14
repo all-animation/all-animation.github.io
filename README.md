@@ -1,4 +1,4 @@
-# All Animation
+# All Animation CSS3
 
 [![Built with Electric](https://img.shields.io/badge/built%20with-electric-f3c302.svg?style=flat)](http://electricjs.com)
 
@@ -13,7 +13,7 @@ node -v && npm -v
 2. Install our global dependencies:
 
 ```sh
-[sudo] npm i -g electric-cli@alpha
+[sudo] npm i -g electric-cli
 ```
 
 3. Install our local dependencies:

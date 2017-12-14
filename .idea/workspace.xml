@@ -2,55 +2,159 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5404030-2120-47b5-8f7c-a01995551f53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/all-animation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/clovis-neto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.soy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atomic-templates/_atomic-templates.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atomic-templates/_blog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atomic-templates/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atomic-templates/_guide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atoms/_atoms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atoms/_center-element.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atoms/_font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atoms/_margins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_atoms/_paddings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_base/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_base/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_base/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_custom-electric-components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_molecules/_autocomplete-list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_molecules/_github-social-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_molecules/_molecules.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_organism/_highlight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_organism/_organism.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_organism/_topbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_pages/_home.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/_pages/_pages.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/blog/soy-post.soy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/docs/create/lorem.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/docs/create/nula.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/docs/deploy/index.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/docs/build/index.md" afterPath="$PROJECT_DIR$/src/pages/docs/components/index.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/docs/create/etiam.md" afterPath="$PROJECT_DIR$/src/pages/docs/how-to-use/etiam.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/docs/create/index.md" afterPath="$PROJECT_DIR$/src/pages/docs/how-to-use/index.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/all-animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/styles-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/styles-3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/styles-4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/js/min/main-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/detectmobilebrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/changes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/demo/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/demo/css/style.old.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/demo/index.old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/scrollTo.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-compat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-quirks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-to-iframe-compat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-to-iframe-quirks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-with-iframe-compat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/WinMaxY-with-iframe-quirks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-scrollTo/tests/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/prism/min/prism-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/prism/min/prism.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/prism/prism.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/assets/plugins/prism/prism.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkp/params.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/electric.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/images/all-animation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/images/clovis-neto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/images/eu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/images/mascot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/layouts/base.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/layouts/blog.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/layouts/guide.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/layouts/main.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/blog/index.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/blog/markdown-post.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/components/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/create/getstarted.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/develop/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/how-to-use/etiam.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/how-to-use/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/index.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/search.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/updates/index.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/partials/Sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/partials/Sidebar.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/partials/Topbar.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/partials/all-animation-button/AllAnimationButtonComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/partials/all-animation-button/AllAnimationButtonComponent.soy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/site.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atomic-templates/_atomic-templates.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atomic-templates/_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atomic-templates/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atomic-templates/_guide.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atoms/_atoms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atoms/_center-element.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atoms/_font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atoms/_margins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_atoms/_paddings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_base/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_base/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_base/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_base/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_custom-electric-components.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_molecules/_autocomplete-list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_molecules/_github-social-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_molecules/_molecules.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_organism/_highlight.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_organism/_organism.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_organism/_topbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_pages/_home.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/_pages/_pages.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newSite/all-animation-css-3/src/styles/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/all-animation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/clovis-neto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bkp/assets/css/all-animation.min.css" afterPath="$PROJECT_DIR$/src/css-libs/all-animation.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/bkp/assets/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkp/assets/plugins/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/bkp/assets/plugins/jquery-migrate-1.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkp/index.html" afterPath="$PROJECT_DIR$/bkp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electric.config.js" afterPath="$PROJECT_DIR$/electric.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/blog.soy" afterPath="$PROJECT_DIR$/src/layouts/blog.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/guide.soy" afterPath="$PROJECT_DIR$/src/layouts/guide.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/blog/index.soy" afterPath="$PROJECT_DIR$/src/pages/blog/index.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/docs/index.soy" afterPath="$PROJECT_DIR$/src/pages/docs/index.soy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.soy" afterPath="$PROJECT_DIR$/src/pages/index.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/updates/index.soy" afterPath="$PROJECT_DIR$/src/pages/updates/index.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/Topbar.soy" afterPath="$PROJECT_DIR$/src/partials/Topbar.soy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/site.json" afterPath="$PROJECT_DIR$/src/site.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,75 +169,54 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.soy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layouts/base.soy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.soy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/docs/index.soy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="81" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.soy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.soy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="39" column="63" lean-forward="false" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="electric.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/electric.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_atoms.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_atoms.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllAnimationButtonComponent.soy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.soy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllAnimationButtonComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="156">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="e#15#55#0" expanded="true" />
-                <marker date="1498575961000" expanded="true" signature="710:878" ph="..." />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_guide.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_atomic-templates/_guide.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sidebar.soy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/Sidebar.soy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -142,12 +225,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@import icon-16</find>
-      <find>@import &quot;icon-16</find>
-      <find>@import &quot;icon-16&quot;</find>
-      <find>@import &quot;.icon-16&quot;</find>
-      <find>@import &quot;./oicon-16&quot;</find>
-      <find>@import &quot;./icon-16&quot;</find>
       <find>@import &quot;./iicon-16&quot;</find>
       <find>@import &quot;./icoicon-16&quot;</find>
       <find>@import &quot;./iconicon-16&quot;</find>
@@ -172,6 +249,12 @@
       <find>import</find>
       <find>form</find>
       <find>AllAnimationButtonComponent</find>
+      <find>srcFilePath</find>
+      <find>srcFilePath:</find>
+      <find>src/pages/docs/create/getstart</find>
+      <find>h</find>
+      <find>hidden</find>
+      <find>&lt;!</find>
     </findStrings>
     <replaceStrings>
       <replace>navigateSections</replace>
@@ -187,6 +270,8 @@
       <dir>$PROJECT_DIR$/src/styles</dir>
       <dir>$PROJECT_DIR$/node_modules</dir>
       <dir>$PROJECT_DIR$/node_modules/marble/build</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -195,15 +280,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/styles/base/_reset.scss" />
-        <option value="$PROJECT_DIR$/src/styles/atoms/_center-element.scss" />
-        <option value="$PROJECT_DIR$/src/styles/molecules/_highlight.scss" />
-        <option value="$PROJECT_DIR$/src/styles/templates/_footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/atoms/_paddings.scss" />
         <option value="$PROJECT_DIR$/src/styles/pages/_home.scss" />
         <option value="$PROJECT_DIR$/src/styles/molecules/_github-social-icons.scss" />
         <option value="$PROJECT_DIR$/src/js/teste.js" />
-        <option value="$PROJECT_DIR$/src/layouts/base.soy" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationComponent.js" />
         <option value="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationComponent.soy" />
@@ -238,13 +318,18 @@
         <option value="$PROJECT_DIR$/src/pages/docs/use-the-animations/index.md" />
         <option value="$PROJECT_DIR$/src/pages/docs/components/index.md" />
         <option value="$PROJECT_DIR$/src/pages/docs/how-to-use/index.md" />
-        <option value="$PROJECT_DIR$/src/styles/main.scss" />
         <option value="$PROJECT_DIR$/src/styles/_atoms/_icons-16.scss" />
         <option value="$PROJECT_DIR$/electric.config.js" />
-        <option value="$PROJECT_DIR$/src/pages/docs/index.soy" />
         <option value="$PROJECT_DIR$/src/styles/_atomic-templates/_guide.scss" />
         <option value="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.js" />
         <option value="$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.soy" />
+        <option value="$PROJECT_DIR$/.temp/task/soyweb/site/pages/blog/markdown-post.soy" />
+        <option value="$PROJECT_DIR$/dist/site.json" />
+        <option value="$PROJECT_DIR$/src/site.json" />
+        <option value="$PROJECT_DIR$/src/pages/docs/create/getstarted.md" />
+        <option value="$PROJECT_DIR$/src/pages/docs/index.soy" />
+        <option value="$PROJECT_DIR$/src/styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/layouts/base.soy" />
         <option value="$PROJECT_DIR$/src/pages/index.soy" />
       </list>
     </option>
@@ -259,11 +344,6 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/bkp/gulpfile.js</gulpfile-path>
-      </GulpfileState>
-    </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
@@ -289,6 +369,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,9 +382,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all-animation.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -318,14 +452,16 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/styles/_base" />
-      <recent name="$PROJECT_DIR$/src/styles/templates" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/bkp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/newSite/all-animation-css-3/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/css-libs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/styles/_base" />
+      <recent name="$PROJECT_DIR$/src/styles/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,23 +574,26 @@
       <workItem from="1506802769169" duration="2000" />
       <workItem from="1507915026184" duration="929000" />
       <workItem from="1509492559003" duration="313000" />
+      <workItem from="1513259229374" duration="1731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53596000" />
+    <option name="totallyTimeSpent" value="55327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29105005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36556292" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36556292" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -462,7 +601,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -477,88 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/electric-marble-components/node_modules/electric-base-components/src/ElectricSearchAutocomplete.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/electric-marble-components/node_modules/electric-base-components/src/all/components.js" />
-    <entry file="file://$PROJECT_DIR$/src/styles/_organism/_highlight.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/molecules/internal_contents.scss" />
-    <entry file="file://$PROJECT_DIR$/src/styles/_organism/_topbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/marble/src/_variables.scss" />
-    <entry file="file://$PROJECT_DIR$/src/styles/_molecules/_github-social-icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_molecules/_autocomplete-list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_molecules/_molecules.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/organism/_blog.scss" />
-    <entry file="file://$PROJECT_DIR$/src/styles/_organism/_organism.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/guide.soy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_pages/_pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/base.soy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_center-element.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_paddings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_margins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -604,10 +660,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/docs/create/lorem.md" />
     <entry file="file://$PROJECT_DIR$/src/pages/docs/create/nula.md" />
-    <entry file="file://$PROJECT_DIR$/src/pages/docs/how-to-use/etiam.md" />
-    <entry file="file://$PROJECT_DIR$/src/pages/docs/develop/index.md" />
-    <entry file="file://$PROJECT_DIR$/src/pages/docs/components/index.md" />
-    <entry file="file://$PROJECT_DIR$/src/pages/docs/how-to-use/index.md" />
     <entry file="file://$PROJECT_DIR$/src/pages/docs/search.soy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -628,13 +680,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/marble/build/templates/blog.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/marble/build/fonts/icon-16/icon-16.css" />
     <entry file="file://$PROJECT_DIR$/src/styles/_base/_icons-16.scss" />
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog/markdown-post.md" />
     <entry file="file://$PROJECT_DIR$/src/layouts/blog.soy">
       <provider selected="true" editor-type-id="text-editor">
@@ -652,22 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_atoms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/electric.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/Topbar.soy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -682,18 +711,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/Sidebar.soy">
+    <entry file="file://$PROJECT_DIR$/.temp/task/soyweb/site/pages/blog/markdown-post.soy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/docs/index.soy">
+    <entry file="file://$PROJECT_DIR$/src/styles/_atoms/_atoms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,30 +735,245 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_atomic-templates/_guide.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="400">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/all-animation-button/AllAnimationButtonComponent.js">
+    <entry file="file://$PROJECT_DIR$/src/partials/Sidebar.soy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-            <marker date="1498575961000" expanded="true" signature="710:878" ph="..." />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/site.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8019" lean-forward="false" selection-start-line="0" selection-start-column="8019" selection-end-line="0" selection-end-column="8019" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/develop/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/components/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/how-to-use/etiam.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/how-to-use/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/create/etiam.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/create/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/create/lorem.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newSite/all-animation-css-3/src/pages/docs/create/getstarted.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/electric.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newSite/all-animation-css-3/electric.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/create/getstarted.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/base.soy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/docs/index.soy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="81" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.soy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="39" column="63" lean-forward="false" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/legacy.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="752" column="8" lean-forward="false" selection-start-line="752" selection-start-column="8" selection-end-line="752" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.soy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

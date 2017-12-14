@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "all-animation-css3",
+  "name": "all-animation-css-3",
   "version": "0.0.0",
   "devDependencies": {
-    "electric": "^2.0.0",
-    "electric-marble-components": "alpha",
+    "all-animation": "^2.1.3",
+    "electric-marble-components": "^2.0.0",
     "marble": "~2.7.0",
     "metal-toggler": "^2.0.0"
   }
