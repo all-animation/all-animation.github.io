@@ -100,7 +100,7 @@ a.btn-cta-secondary,
   text-align: center;
   padding: 20px 20%; 
   background: #fff;
-  margin-top: 20px;
+  margin-top: 130px;
   border-radius: 5px;
 }
 #download-content code[class*="language-"], #download-content pre[class*="language-"] {
@@ -123,12 +123,16 @@ pre code {
   font-size: 16px;
 }
 
+.small-text {
+  font-size: 20px;
+}
+
 .btns .btn{margin-bottom: 5px;}
 .separator {padding-bottom: 20px; margin-bottom: 20px;}
 
 .features .col-md-8 {position: relative; z-index: 2;}
 
-.col-md-4.treed {
+.col-md-4.a-perspective {
   position: fixed;
   z-index: 1;
   top: 250px;
