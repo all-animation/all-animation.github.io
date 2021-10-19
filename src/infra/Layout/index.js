@@ -3,6 +3,7 @@ import Navigation from "../../components/Navigation";
 import Typography from "../../components/Typography";
 
 import GlobalStyles from "../../theme/globals";
+import ForkImage from "../../assets/svg/fork-github.svg";
 
 import { LayoutHeader, LayoutFork } from "./styled";
 
@@ -22,10 +23,7 @@ function Layout({ children }) {
           target="blank"
           href="https://github.com/all-animation/all-animation"
         >
-          <img
-            src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
-            alt="Fork me on GitHub"
-          />
+          <ForkImage />
         </LayoutFork>
       </LayoutHeader>
 
