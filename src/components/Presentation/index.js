@@ -1,4 +1,5 @@
 import React from "react";
+import Sky from "../Sky";
 import {
   PresentationWrapper,
   PresentationTitle,
@@ -20,6 +21,12 @@ function Presentation() {
 
       <BigTriangle />
       <SmallTriangle />
+
+      <Sky top="7rem" right="40%" />
+      <Sky top="12rem" right="13%" />
+      <Sky top="18rem" right="30%" />
+
+      <Sky top="27rem" left="15%" />
     </PresentationWrapper>
   );
 }

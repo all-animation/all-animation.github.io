@@ -19,10 +19,14 @@ export const PresentationWrapper = styled.section`
 
 export const PresentationTitle = styled(Typography)`
   max-width: 581px;
+  position: relative;
+  z-index: 2;
 `;
 
 export const PresentationDescription = styled(Typography)`
   max-width: 930px;
+  position: relative;
+  z-index: 2;
 `;
 
 export const BigTriangle = styled.div`
