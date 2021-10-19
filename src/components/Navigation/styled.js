@@ -5,6 +5,6 @@ export const NavigationWrapper = styled.nav`
   display: flex;
 
   li:not(li:last-child) {
-    margin-right: 6rem;
+    margin-right: 10%;
   }
 `;

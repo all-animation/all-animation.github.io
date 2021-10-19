@@ -10,6 +10,7 @@ export const LayoutHeader = styled.header`
 
   h1 {
     margin: 0;
+    margin-right: 1rem;
   }
 `;
 
