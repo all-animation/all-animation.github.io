@@ -12,6 +12,7 @@ const typographyVariants = {
   `,
   h3: () => css`
     font-weight: 500;
+    line-height: 50px;
     font-size: 36px;
   `,
   h4: () => css`

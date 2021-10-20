@@ -15,6 +15,8 @@ export const PresentationWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   position: relative;
+
+  ${({ theme }) => theme.utils.container}
 `;
 
 export const PresentationTitle = styled(Typography)`

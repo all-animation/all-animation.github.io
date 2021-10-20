@@ -2,11 +2,7 @@ import * as React from "react";
 import Home from "../containers/Home";
 
 const IndexPage = () => {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Home />;
 };
 
 export default IndexPage;
