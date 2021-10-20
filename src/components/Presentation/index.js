@@ -1,5 +1,5 @@
 import React from "react";
-import Sky from "../Sky";
+import { Sky, SkyMotion } from "../Sky";
 import {
   PresentationWrapper,
   PresentationTitle,
@@ -15,6 +15,7 @@ function Presentation() {
   const skyA = useTransform(scrollYProgress, [0, 1], [0, 300]);
   const skyB = useTransform(scrollYProgress, [0, 1], [0, 50]);
   const skyC = useTransform(scrollYProgress, [0, 1], [0, -100]);
+  const skyD = useTransform(scrollYProgress, [0, 1], [0, 200]);
 
   const bigTriangle = useTransform(scrollYProgress, [0, 1], [0, 100]);
   const smallTriangle = useTransform(scrollYProgress, [0, 1], [0, 150]);
@@ -23,6 +24,7 @@ function Presentation() {
   const skyATransition = useSpring(skyA, { stiffness: 400, damping: 90 });
   const skyBTransition = useSpring(skyB, { stiffness: 400, damping: 90 });
   const skyCTransition = useSpring(skyC, { stiffness: 400, damping: 90 });
+  const skyDTransition = useSpring(skyD, { stiffness: 400, damping: 90 });
 
   return (
     <PresentationWrapper>
@@ -42,26 +44,21 @@ function Presentation() {
         <SmallTriangle />
       </TriangleMotion>
 
-      <Sky
-        top="7rem"
-        delay={0.5}
-        style={{ translateX: skyATransition }}
-        right="40%"
-      />
-      <Sky
-        top="12rem"
-        delay={1.5}
-        right="13%"
-        style={{ translateX: skyBTransition }}
-      />
-      <Sky top="18rem" right="30%" style={{ translateX: skyCTransition }} />
+      <SkyMotion top="7rem" right="40%" style={{ translateX: skyATransition }}>
+        <Sky delay={0.5} speed={5} />
+      </SkyMotion>
 
-      <Sky
-        top="27rem"
-        delay={2}
-        left="15%"
-        style={{ translateX: skyATransition }}
-      />
+      <SkyMotion top="12rem" right="13%" style={{ translateX: skyBTransition }}>
+        <Sky delay={1.5} speed={7} />
+      </SkyMotion>
+
+      <SkyMotion top="18rem" right="30%" style={{ translateX: skyCTransition }}>
+        <Sky delay={5} speed={6} />
+      </SkyMotion>
+
+      <SkyMotion top="27rem" left="15%" style={{ translateX: skyDTransition }}>
+        <Sky delay={2} speed={10} />
+      </SkyMotion>
     </PresentationWrapper>
   );
 }

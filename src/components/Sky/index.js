@@ -9,39 +9,56 @@ const skyHeigh = keyframes`
 
   60%, 100% {
     transform: translateY(4px);
-    height: 80px
+    height: 80px;
+  }
+`;
+
+const skyMotion = keyframes`
+  0%, 40% {
+    transform: translateX(0px);
+  }
+
+  60%, 100% {
+    transform: translateX(100px);
   }
 `;
 
 const commonSkyStyles = css`
   display: block;
   background: ${({ theme }) => theme.colors.secondary};
-  position: absolute;
   border-radius: 100%;
 `;
 
-const Sky = styled(motion.div)`
-  ${commonSkyStyles}
-  width: 179px;
-  height: 53px;
-  z-index: 1;
-
+export const SkyMotion = styled(motion.div)`
+  position: absolute;
   ${({ top }) => top && `top: ${top};`}
   ${({ right }) => right && `right: ${right};`}
   ${({ left }) => left && `left: ${left};`}
   ${({ bottom }) => bottom && `bottom: ${bottom};`}
+`;
+
+export const Sky = styled.figure`
+  ${commonSkyStyles}
+
+  position: relative;
+  width: 179px;
+  height: 53px;
+  animation: ${skyMotion}
+    ${({ speed }) => `${speed}s ease-in-out infinite alternate`};
+  ${({ delay }) => delay && `animation-delay: ${delay}s;`}
 
   &:before {
     ${commonSkyStyles}
 
+    position: absolute;
+    top: -20px;
+    left: 50%;
     content: "";
     width: 58px;
     height: 88px;
-    left: 50%;
     margin-left: -31px;
-    top: -20px;
     animation: ${skyHeigh} 2s ease-out infinite alternate;
-    ${({ delay }) => delay && `animation-delay: ${delay}s`}
+    ${({ delay }) => delay && `animation-delay: ${delay}s;`}
   }
 `;
 
