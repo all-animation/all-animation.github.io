@@ -6,9 +6,24 @@ import {
   PresentationDescription,
   BigTriangle,
   SmallTriangle,
+  TriangleMotion,
 } from "./styled";
+import { useViewportScroll, useTransform, useSpring } from "framer-motion";
 
 function Presentation() {
+  const { scrollYProgress } = useViewportScroll();
+  const skyA = useTransform(scrollYProgress, [0, 1], [0, 300]);
+  const skyB = useTransform(scrollYProgress, [0, 1], [0, 50]);
+  const skyC = useTransform(scrollYProgress, [0, 1], [0, -100]);
+
+  const bigTriangle = useTransform(scrollYProgress, [0, 1], [0, 100]);
+  const smallTriangle = useTransform(scrollYProgress, [0, 1], [0, 150]);
+
+  //Transitions
+  const skyATransition = useSpring(skyA, { stiffness: 400, damping: 90 });
+  const skyBTransition = useSpring(skyB, { stiffness: 400, damping: 90 });
+  const skyCTransition = useSpring(skyC, { stiffness: 400, damping: 90 });
+
   return (
     <PresentationWrapper>
       <PresentationTitle paragraph variant="h1" weight={400}>
@@ -19,14 +34,34 @@ function Presentation() {
         your project.
       </PresentationDescription>
 
-      <BigTriangle />
-      <SmallTriangle />
+      <TriangleMotion index={2} style={{ translateY: bigTriangle }}>
+        <BigTriangle />
+      </TriangleMotion>
 
-      <Sky top="7rem" right="40%" />
-      <Sky top="12rem" right="13%" />
-      <Sky top="18rem" right="30%" />
+      <TriangleMotion index={1} style={{ translateY: smallTriangle }}>
+        <SmallTriangle />
+      </TriangleMotion>
 
-      <Sky top="27rem" left="15%" />
+      <Sky
+        top="7rem"
+        delay={0.5}
+        style={{ translateX: skyATransition }}
+        right="40%"
+      />
+      <Sky
+        top="12rem"
+        delay={1.5}
+        right="13%"
+        style={{ translateX: skyBTransition }}
+      />
+      <Sky top="18rem" right="30%" style={{ translateX: skyCTransition }} />
+
+      <Sky
+        top="27rem"
+        delay={2}
+        left="15%"
+        style={{ translateX: skyATransition }}
+      />
     </PresentationWrapper>
   );
 }

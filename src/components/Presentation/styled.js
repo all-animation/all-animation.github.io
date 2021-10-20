@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 import Typography from "../Typography";
 
-const sharedBigTriangleStyles = css`
+const commonBigTriangleStyles = css`
   width: 0;
   height: 0;
   border: solid 13rem transparent;
@@ -15,6 +16,7 @@ export const PresentationWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 
   ${({ theme }) => theme.utils.container}
 `;
@@ -31,19 +33,25 @@ export const PresentationDescription = styled(Typography)`
   z-index: 2;
 `;
 
+export const TriangleMotion = styled(motion.div)`
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  ${({ index }) => index && `z-index: ${index};`}
+`;
+
 export const BigTriangle = styled.div`
-  ${sharedBigTriangleStyles}
+  ${commonBigTriangleStyles}
   border-bottom-color: #00D76B;
   border-right-width: 0rem;
   border-left-width: 9rem;
   transform: skewX(-9deg);
-  position: absolute;
-  bottom: 0;
-  left: 50%;
   margin-left: -10rem;
+  position: relative;
 
   &:before {
-    ${sharedBigTriangleStyles}
+    ${commonBigTriangleStyles}
 
     border-bottom-color: #2dff96;
     border-left-width: 2rem;
@@ -63,9 +71,7 @@ export const SmallTriangle = styled.div`
   border-bottom-color: #2dff96;
   border-left-width: 3rem;
   border-right-width: 8rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
+  position: relative;
   margin-left: 173px;
 
   &:before {
