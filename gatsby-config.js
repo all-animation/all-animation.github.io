@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://all-animation.github.io",
     title: "All Animation CSS",
+    description:
+      "All Animation.css is a set of nice and crazy css animations made with the purpose to bring life and interactions to your project.",
   },
   plugins: [
     "gatsby-plugin-styled-components",

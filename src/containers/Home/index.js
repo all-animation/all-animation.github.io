@@ -1,10 +1,21 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Highlight from "../../components/Highlight";
 import Presentation from "../../components/Presentation";
+import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 function Home() {
+  const { title, description } = useSiteMetadata();
+
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
+
       <Presentation />
 
       <Highlight title="All Animation styled is comming soon">

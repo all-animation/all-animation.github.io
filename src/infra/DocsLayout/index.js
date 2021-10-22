@@ -9,27 +9,37 @@ import {
   DocsLayoutArticle,
 } from "./styled";
 import Contribute from "../../components/ContributeSection";
+import { Helmet } from "react-helmet";
 
 function DocsLayout({ data }) {
   const {
     body,
-    frontmatter: { slug, topics },
+    frontmatter: { slug, topics, title, description },
   } = data.mdx;
 
   return (
-    <DocsLayoutContainer>
-      <DocsLayoutGird>
-        <SideNavigation topics={topics} slug={slug} />
+    <>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
 
-        <DocsLayoutArticle>
-          <div>
-            <MDXRenderer>{body}</MDXRenderer>
-          </div>
+      <DocsLayoutContainer>
+        <DocsLayoutGird>
+          <SideNavigation topics={topics} slug={slug} />
 
-          <Contribute />
-        </DocsLayoutArticle>
-      </DocsLayoutGird>
-    </DocsLayoutContainer>
+          <DocsLayoutArticle>
+            <div>
+              <MDXRenderer>{body}</MDXRenderer>
+            </div>
+
+            <Contribute />
+          </DocsLayoutArticle>
+        </DocsLayoutGird>
+      </DocsLayoutContainer>
+    </>
   );
 }
 
@@ -40,6 +50,7 @@ export const query = graphql`
       frontmatter {
         slug
         topics
+        title
       }
     }
   }

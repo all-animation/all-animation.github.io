@@ -1,9 +1,11 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import Typography from "../../components/Typography";
+import Helmet from "react-helmet";
 
 import GlobalStyles from "../../theme/globals";
 import ForkImage from "../../assets/svg/fork-github.svg";
+import Head from "../Head";
 
 import { LayoutHeader, LayoutFork, LayoutFooter } from "./styled";
 
@@ -11,6 +13,8 @@ function Layout({ children, location }) {
   return (
     <>
       <GlobalStyles />
+
+      <Head location={location} />
 
       <LayoutHeader>
         <a href="/">
