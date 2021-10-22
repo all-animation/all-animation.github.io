@@ -1,25 +1,24 @@
 import React from "react";
-import Typography from "../Typography";
-import { NavigationWrapper } from "./styled";
+import { NavigationWrapper, NavigationLink } from "./styled";
 
-function Navigation() {
+import items from "../SideNavigation/items";
+
+function Navigation({ location }) {
   return (
     <NavigationWrapper>
-      <li>
-        <Typography as="a" weight={500} variant="h5" href="#">
-          Get Started
-        </Typography>
-      </li>
-      <li>
-        <Typography as="a" weight={500} variant="h5" href="#">
-          Docs
-        </Typography>
-      </li>
-      <li>
-        <Typography as="a" weight={500} variant="h5" href="#">
-          Contribute
-        </Typography>
-      </li>
+      {items.map(({ label, link }) => (
+        <li>
+          <NavigationLink
+            forwardedAs="a"
+            weight={500}
+            variant="h5"
+            active={location.pathname === link}
+            href={link}
+          >
+            {label}
+          </NavigationLink>
+        </li>
+      ))}
     </NavigationWrapper>
   );
 }

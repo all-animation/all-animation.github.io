@@ -43,8 +43,9 @@ export const Sky = styled.figure`
   position: relative;
   width: 179px;
   height: 53px;
-  animation: ${skyMotion}
-    ${({ speed }) => `${speed}s ease-in-out infinite alternate`};
+  animation: ${({ speed }) => `${speed}s ease-in-out infinite alternate`};
+  animation-name: ${skyMotion};
+
   ${({ delay }) => delay && `animation-delay: ${delay}s;`}
 
   &:before {

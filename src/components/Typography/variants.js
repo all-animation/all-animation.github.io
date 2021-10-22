@@ -30,6 +30,10 @@ const typographyVariants = {
   body: () => css`
     font-size: 16px;
   `,
+  // Based on MUI palette definition
+  body2: () => css`
+    font-size: 18px;
+  `,
 };
 
 const spanColorVariants = {
@@ -41,8 +45,28 @@ const spanColorVariants = {
   `,
 };
 
+const linkColorVariants = {
+  primary: ({ theme }) => css`
+    color: ${theme.colors.secondary};
+
+    &:hover {
+      box-shadow: 0 2px 0 ${theme.colors.secondary};
+    }
+  `,
+  dark: ({ theme }) => css`
+    color: ${theme.colors.secondary};
+
+    &:hover {
+      box-shadow: 0 2px 0 ${theme.colors.secondary};
+    }
+  `,
+};
+
 export const getSpanColorVariant = ({ color = "dark", ...props }) =>
   spanColorVariants[color] && spanColorVariants[color](props);
+
+export const getLinkColorVariant = ({ color = "dark", ...props }) =>
+  linkColorVariants[color] && linkColorVariants[color](props);
 
 export const getTypographyVariants = ({ variant = "body", ...props }) =>
   typographyVariants[variant] && typographyVariants[variant](props);

@@ -5,19 +5,21 @@ import Typography from "../../components/Typography";
 import GlobalStyles from "../../theme/globals";
 import ForkImage from "../../assets/svg/fork-github.svg";
 
-import { LayoutHeader, LayoutFork } from "./styled";
+import { LayoutHeader, LayoutFork, LayoutFooter } from "./styled";
 
-function Layout({ children }) {
+function Layout({ children, location }) {
   return (
     <>
       <GlobalStyles />
 
       <LayoutHeader>
-        <Typography weight={500} color="primary" variant="h5" as="h1">
-          All Animation <span>CSS3</span>
-        </Typography>
+        <a href="/">
+          <Typography weight={500} color="primary" variant="h5" as="h1">
+            All Animation <span>CSS3</span>
+          </Typography>
+        </a>
 
-        <Navigation />
+        <Navigation location={location} />
 
         <LayoutFork
           target="blank"
@@ -28,6 +30,17 @@ function Layout({ children }) {
       </LayoutHeader>
 
       {children}
+
+      <LayoutFooter>
+        <Typography variant="h5">
+          Made with ❤️ by{" "}
+          <a href="http://clovisdasilvaneto.github.io" target="_blank">
+            Clóvis Neto
+          </a>{" "}
+          & <a href="https://github.com/evertonfxavier">Everton Xavier</a> for{" "}
+          <span>developers</span>
+        </Typography>
+      </LayoutFooter>
     </>
   );
 }

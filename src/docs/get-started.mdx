@@ -1,0 +1,59 @@
+---
+title: Get Started
+slug: get-started
+date: 2021-10-22
+topics: "Basic usage, Event based animations"
+---
+
+Get Started
+---------
+
+It’s really easy to use our library, so for making the initialization process easier to undestand, we have separated made this tutorial bellow, step by step.
+
+<Typography as="h3" id="basic-usage">Basic usage</Typography>
+
+#### Step 1
+
+Include the necessary files in the head , so that the framework work properly:
+
+```html
+<link rel="stylesheet" type="text/css" href="yourpath/all-animation.css" />
+```
+
+#### Step 2
+
+To add the animation you can enter there by JavaScrip dynamically or statically placed there by html:
+
+```html
+<div class="a-dance"> 
+    Trigger Class...
+</div>
+```
+
+<Typography as="h3" id="event-based-animations">Event based animations</Typography>
+
+#### Step 3 - Optional
+
+The usage of javascript is optional, we just demonstrate here in order to let you know how to trigger an animation after certain user action:
+
+<br />
+
+Using jQuery:
+
+```javascript
+$("button").click((e) => {
+    e.preventDefault();
+    $("div").addClass('a-dance');
+});
+```
+<br />
+
+Using plain javascript:
+
+```javascript
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    div.classList.add('a-dance');
+})
+```

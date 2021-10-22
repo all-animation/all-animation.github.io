@@ -6,6 +6,7 @@ function Typography({
   className,
   href,
   children,
+  id,
   weight,
   color,
   variant,
@@ -14,6 +15,7 @@ function Typography({
 }) {
   return (
     <TypographText
+      id={id}
       italic={italic}
       className={className}
       weight={weight}

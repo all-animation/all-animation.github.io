@@ -26,6 +26,15 @@ function Presentation() {
   const skyCTransition = useSpring(skyC, { stiffness: 400, damping: 90 });
   const skyDTransition = useSpring(skyD, { stiffness: 400, damping: 90 });
 
+  const bigTriangleTransition = useSpring(bigTriangle, {
+    stiffness: 400,
+    damping: 90,
+  });
+  const smallTriangleTransition = useSpring(smallTriangle, {
+    stiffness: 400,
+    damping: 90,
+  });
+
   return (
     <PresentationWrapper>
       <PresentationTitle paragraph variant="h1" weight={400}>
@@ -36,27 +45,27 @@ function Presentation() {
         your project.
       </PresentationDescription>
 
-      <TriangleMotion index={2} style={{ translateY: bigTriangle }}>
+      <TriangleMotion index={2} style={{ translateY: bigTriangleTransition }}>
         <BigTriangle />
       </TriangleMotion>
 
-      <TriangleMotion index={1} style={{ translateY: smallTriangle }}>
+      <TriangleMotion index={1} style={{ translateY: smallTriangleTransition }}>
         <SmallTriangle />
       </TriangleMotion>
 
-      <SkyMotion top="7rem" right="40%" style={{ translateX: skyATransition }}>
+      <SkyMotion top="5rem" right="40%" style={{ translateX: skyATransition }}>
         <Sky delay={0.5} speed={5} />
       </SkyMotion>
 
-      <SkyMotion top="12rem" right="13%" style={{ translateX: skyBTransition }}>
+      <SkyMotion top="10rem" right="13%" style={{ translateX: skyBTransition }}>
         <Sky delay={1.5} speed={7} />
       </SkyMotion>
 
-      <SkyMotion top="18rem" right="30%" style={{ translateX: skyCTransition }}>
+      <SkyMotion top="16rem" right="30%" style={{ translateX: skyCTransition }}>
         <Sky delay={5} speed={6} />
       </SkyMotion>
 
-      <SkyMotion top="27rem" left="15%" style={{ translateX: skyDTransition }}>
+      <SkyMotion top="25rem" left="15%" style={{ translateX: skyDTransition }}>
         <Sky delay={2} speed={10} />
       </SkyMotion>
     </PresentationWrapper>

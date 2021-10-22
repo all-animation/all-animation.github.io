@@ -11,7 +11,7 @@ const commonBigTriangleStyles = css`
 
 export const PresentationWrapper = styled.section`
   position: relative;
-  height: calc(100vh - 48px);
+  height: calc(100vh - 78px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +25,7 @@ export const PresentationTitle = styled(Typography)`
   max-width: 581px;
   position: relative;
   z-index: 2;
+  color: #1e1e1e;
 `;
 
 export const PresentationDescription = styled(Typography)`

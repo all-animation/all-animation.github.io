@@ -4,9 +4,13 @@ export const LayoutHeader = styled.header`
   ${({ theme }) => theme.utils.container}
 
   display: grid;
-  padding-top: 1.5rem;
+  padding: 1.5rem 2rem;
   grid-template-columns: 35% auto;
   grid-template-rows: auto;
+
+  > a {
+    text-decoration: none;
+  }
 
   h1 {
     margin: 0;
@@ -20,4 +24,12 @@ export const LayoutFork = styled.a`
   right: 0;
   border: 0;
   z-index: 10;
+`;
+
+export const LayoutFooter = styled.footer`
+  ${({ theme }) => theme.utils.container};
+
+  border-top: solid 1px ${({ theme }) => theme.colors.light};
+  text-align: center;
+  padding: 2rem 0;
 `;

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    siteUrl: "https://all-animation.github.io",
+    title: "All Animation CSS",
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -23,10 +23,9 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: "docs",
+        path: "./src/docs/",
       },
-      __key: "pages",
     },
     {
       resolve: `gatsby-plugin-google-fonts`,

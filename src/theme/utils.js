@@ -12,7 +12,7 @@ const generateBreakpoint = (width, cssMarkup) => css`
 
 const utils = {
   container: css`
-    max-width: 1656px;
+    max-width: 1556px;
     width: 100%;
     padding: 0 2rem;
     margin: 0 auto;
