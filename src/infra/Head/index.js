@@ -3,8 +3,7 @@ import { Helmet } from "react-helmet";
 
 import useSiteMetadata from "../../hooks/useSiteMetadata";
 
-import allAnimation from 'all-animation/dist/all-animation.css'
-
+import "all-animation/dist/all-animation.css";
 
 export default function Head({ location }) {
   const { siteURL } = useSiteMetadata();
@@ -14,12 +13,6 @@ export default function Head({ location }) {
       <html lang="en-US" />
       <meta property="og:site_name" content="All Animation CSS3" />
       <link rel="canonical" href={`${siteURL}${location.pathname}`} />
-
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href={allAnimation}
-      />
 
       <meta
         property="og:image"

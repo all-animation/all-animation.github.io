@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import Typography from "../../components/Typography";
-import Helmet from "react-helmet";
 
 import GlobalStyles from "../../theme/globals";
 import ForkImage from "../../assets/svg/fork-github.svg";

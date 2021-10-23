@@ -17,8 +17,11 @@ export const LiveContainer = styled.article`
 
 export const ImageContainer = styled.div`
   margin: 2.8rem 0px;
-  width: 100%;
   max-width: 46rem;
+
+  img {
+    width: 30%;
+  }
 `;
 
 export const LiveTitle = styled(Typography)`
