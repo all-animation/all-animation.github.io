@@ -31,7 +31,6 @@ const LiveExemples = () => {
         </ImageContainer>
 
         <ButtonWrapper>
-          <Button label="a-fade-in" />
           <Button label="a-dance" onSet={() => setAnimation("a-dance")} />
           <Button label="a-journal" onSet={() => setAnimation("a-journal")} />
           <Button label="a-pulse" onSet={() => setAnimation("a-pulse")} />

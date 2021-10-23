@@ -2153,10 +2153,10 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-all-animation@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/all-animation/-/all-animation-3.0.4.tgz#7482f566b9fd21bc9deec12f57f2b9033b627449"
-  integrity sha512-J03UrbY+4ySklmGX+9azSbX9Axg9h5BF55XkFFyzXLXkeISmEGYDF850aqqP1rrdBxI822lgzodTb+JHkSyL+g==
+all-animation@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/all-animation/-/all-animation-3.0.5.tgz#c06603cac4a64e1e310338cff06728b29bfbbc89"
+  integrity sha512-/U0YjKdXeMkrNOBFAbtcOV24lx1OzyWtFBjCBLze8rMWs6F4Mid37wl4AVVBCKuocbP4SaiictXXNn6zberAdQ==
 
 alphanum-sort@^1.0.2:
   version "1.0.2"
