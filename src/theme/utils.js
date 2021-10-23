@@ -2,10 +2,11 @@ import { css } from "styled-components";
 
 const breakpoints = {
   phone: 600,
+  tablet: 1030,
 };
 
 const generateBreakpoint = (width, cssMarkup) => css`
-  @media (min-width: ${width}px) {
+  @media (max-width: ${width}px) {
     ${cssMarkup};
   }
 `;

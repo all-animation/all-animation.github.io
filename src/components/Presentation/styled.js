@@ -19,6 +19,11 @@ export const PresentationWrapper = styled.section`
   overflow: hidden;
 
   ${({ theme }) => theme.utils.container}
+  ${({ theme }) => theme.utils.media.phone`
+    div {
+      display: none;
+    }
+  `}
 `;
 
 export const PresentationTitle = styled(Typography)`

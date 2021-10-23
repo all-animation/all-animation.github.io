@@ -10,8 +10,12 @@ export const DocsLayoutGird = styled.div`
   padding-top: 6rem;
   display: grid;
   grid-template-columns: 337px 0.9fr;
-  grid-column-gap: 6rem;
+  grid-column-gap: 5vw;
   grid-template-rows: auto;
+
+  ${({ theme }) => theme.utils.media.tablet`
+    grid-template-columns: auto;
+  `}
 `;
 
 export const DocsLayoutArticle = styled.article`
@@ -85,7 +89,7 @@ export const DocsLayoutArticle = styled.article`
     li,
     span {
       font-size: 24px;
-      line-height: 34px;
+      line-height: 36px;
     }
 
     a,

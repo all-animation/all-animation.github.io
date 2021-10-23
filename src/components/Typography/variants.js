@@ -1,19 +1,33 @@
 import { css } from "styled-components";
 
 const typographyVariants = {
-  h1: () => css`
+  h1: ({ theme }) => css`
     font-weight: 500;
     font-size: 106px;
     line-height: 106px;
+
+    ${theme.utils.media.tablet`
+      font-size: 80px;
+      line-height: 74px;
+    `}
   `,
-  h2: () => css`
+  h2: ({ theme }) => css`
     font-weight: 500;
     font-size: 64px;
+
+    ${theme.utils.media.tablet`
+      font-size: 44px;
+    `}
   `,
-  h3: () => css`
+  h3: ({ theme }) => css`
     font-weight: 500;
     line-height: 50px;
     font-size: 36px;
+
+    ${theme.utils.media.tablet`
+      line-height: 45px;
+      font-size: 32px;
+    `}
   `,
   h4: () => css`
     font-weight: 500;
