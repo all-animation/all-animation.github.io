@@ -16,6 +16,12 @@ export const LayoutHeader = styled.header`
     margin: 0;
     margin-right: 1rem;
   }
+
+  ${({ theme }) => theme.utils.media.phone`
+    grid-template-columns: auto;
+    grid-row-gap: 2rem;
+    text-align: center;
+  `}
 `;
 
 export const LayoutFork = styled.a`
