@@ -23,8 +23,10 @@ function Home() {
         We are very welcome to suggestions, and use <b>github</b> as version
         control so if you want to suggest something, please create an issue in
         there or in case of contribution, please check the{" "}
-        <a href="#">all-animation/styled</a> repository on{" "}
-        <a href="#">github</a>.
+        <a href="http://github.com/all-animation/all-animation-styled">
+          all-animation/styled
+        </a>{" "}
+        repository on <a href="http://github.com/all-animation">github</a>.
       </Highlight>
 
       <LiveExemples />
