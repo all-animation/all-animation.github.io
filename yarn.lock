@@ -2153,6 +2153,11 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+all-animation@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/all-animation/-/all-animation-3.0.5.tgz#c06603cac4a64e1e310338cff06728b29bfbbc89"
+  integrity sha512-/U0YjKdXeMkrNOBFAbtcOV24lx1OzyWtFBjCBLze8rMWs6F4Mid37wl4AVVBCKuocbP4SaiictXXNn6zberAdQ==
+
 alphanum-sort@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"

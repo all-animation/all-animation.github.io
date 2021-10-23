@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Highlight from "../../components/Highlight";
+import LiveExemples from "../../components/LiveExemples";
 import Presentation from "../../components/Presentation";
 import useSiteMetadata from "../../hooks/useSiteMetadata";
 
@@ -25,6 +26,8 @@ function Home() {
         <a href="#">all-animation/styled</a> repository on{" "}
         <a href="#">github</a>.
       </Highlight>
+
+      <LiveExemples />
     </>
   );
 }
