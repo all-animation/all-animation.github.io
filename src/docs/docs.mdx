@@ -1,0 +1,76 @@
+---
+title: Docs
+description: A detailed guide about how to use All Animation in your applications.
+slug: docs
+date: 2021-10-22
+topics: "Ways of importing, How to use it"
+---
+
+Docs
+---------
+
+All animation is available in NPM, so you can download it by just doing an `npm install all-animation` or `yarn add all-animation`
+
+<Typography as="h3" id="ways-of-importing">Ways of importing</Typography>
+
+Currently there are 2 ways of importing All Animation in your app. Let's take a look bellow how to do it and which one would be more appropriated to your project.
+
+<br />
+
+#### Importing via CSS
+
+The first one we have already seen in the [get started](/docs/get-started) page, 
+which is by linking the css directly in your head tag:
+
+```css
+<link rel="stylesheet" type="text/css" href="yourpath/all-animation.min.css" />
+```
+
+This is good for projects which does not support any scss markup, othercase, we recommend you to import it by using **scss** imports -- See bellow.
+
+<br />
+
+#### Importing via SCSS
+
+The second one is importing the SCSS file, in this case we assume your application is already using a **scss** pre-processor. So in the main **scss** file of your application, you can import the All Animation scss file:
+
+```scss
+// In your main scss file
+@import "../node_modules/all-animation/scss/main"
+```
+
+In this way you're importing all the animations from All Animation, but in most of the cases you might not want to import all of them, since you might not are going to use it. 
+
+That's why we also allow you to import specific animations, and it's very straight forward, in you main **scss** file, you first need to import all the configuration that is needed for making All Animation library work, and them you can import the animation which you want:
+
+```scss
+// Core all-animation dependencies, like variables and mixins
+@import "../node_modules/all-animation/scss/config/_config";
+
+// The specific animation which you want to use
+// in this case "a-bomb"
+@import "../node_modules/all-animation/scss/modules/bomb/bomb"
+```
+
+And vualá! Now you are able to use the bomb animation from All Animation library 🤩
+
+<Typography as="h3" id="how-to-use-it">How to use it</Typography>
+
+After the library is properly linked, its very simple to use it, you just need to add the [All Animation class](/docs/animation-classes) and your element will be animated, eg:
+
+```html
+<div class="hey">This guy is going to be animated</div>
+<button>Animte NOOOOW</button>
+
+<script>
+// Attach the click event on the button
+document.querySelector("button").addEventListener('click', () => {
+    // Adds the a-bomb class on our "hey" element
+    document.querySelector('.hey').classList.add('a-bomb')
+})
+</script>
+```
+
+This example on top, is adding an animation on our `div` element when the user clicks on our button.
+
+
