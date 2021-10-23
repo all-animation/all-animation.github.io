@@ -38,7 +38,7 @@ const typographyVariants = {
 
 const spanColorVariants = {
   primary: ({ theme }) => css`
-    color: ${theme.colors.secondary};
+    color: ${theme.colors.secondary.light};
   `,
   dark: ({ theme }) => css`
     color: ${theme.colors.primary};
@@ -47,17 +47,17 @@ const spanColorVariants = {
 
 const linkColorVariants = {
   primary: ({ theme }) => css`
-    color: ${theme.colors.secondary};
+    color: ${theme.colors.secondary.light};
 
     &:hover {
-      box-shadow: 0 2px 0 ${theme.colors.secondary};
+      box-shadow: 0 2px 0 ${theme.colors.secondary.light};
     }
   `,
   dark: ({ theme }) => css`
-    color: ${theme.colors.secondary};
+    color: ${theme.colors.secondary.light};
 
     &:hover {
-      box-shadow: 0 2px 0 ${theme.colors.secondary};
+      box-shadow: 0 2px 0 ${theme.colors.secondary.light};
     }
   `,
 };
