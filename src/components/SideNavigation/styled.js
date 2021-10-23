@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SideNavigationWrapper = styled.aside`
   > ul {
-    padding: 4rem 2.5rem 4rem 4rem;
+    padding: 4rem 1.5rem 4rem 3.4rem;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
   }

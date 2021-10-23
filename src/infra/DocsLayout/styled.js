@@ -82,6 +82,7 @@ export const DocsLayoutArticle = styled.article`
 
     p,
     a,
+    li,
     span {
       font-size: 24px;
       line-height: 34px;
@@ -90,6 +91,17 @@ export const DocsLayoutArticle = styled.article`
     a,
     span {
       color: ${({ theme }) => theme.colors.primary};
+    }
+
+    p > code {
+      background: ${({ theme }) => theme.colors.stone};
+      padding: 4px 0.5rem;
+      border-radius: 4px;
+      color: ${({ theme }) => theme.colors.dark};
+    }
+
+    li {
+      margin-bottom: 1rem;
     }
   }
 `;
