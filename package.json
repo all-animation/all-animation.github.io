@@ -11,6 +11,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "npm run build && gh-pages -d public -b master",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

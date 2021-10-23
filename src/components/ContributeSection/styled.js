@@ -6,6 +6,7 @@ export const ContributeWrapper = styled.a`
   display: flex;
   margin: 4rem 0;
   border-radius: 4px;
+  text-decoration: none;
 
   svg {
     max-width: 78px;

@@ -35,7 +35,9 @@ function DocsLayout({ data }) {
               <MDXRenderer>{body}</MDXRenderer>
             </div>
 
-            <Contribute />
+            <Contribute
+              link={`https://github.com/all-animation/all-animation.github.io/blob/develop/src/docs/${slug}.mdx`}
+            />
           </DocsLayoutArticle>
         </DocsLayoutGird>
       </DocsLayoutContainer>
