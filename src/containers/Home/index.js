@@ -26,6 +26,7 @@ function Home() {
         <a href="#">all-animation/styled</a> repository on{" "}
         <a href="#">github</a>.
       </Highlight>
+
       <LiveExemples />
     </>
   );

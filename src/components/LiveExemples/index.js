@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Arrow from "./icon/arrow";
 
 import Button from "../Button";
 
@@ -8,21 +9,21 @@ import {
   LiveTitle,
   ButtonWrapper,
   ImageContainer,
+  OutlineWrapper,
+  OutlineButton,
 } from "./styled";
 
 const LiveExemples = () => {
   const [animation, setAnimation] = useState("");
 
-  console.log(animation);
-
   return (
     <LiveWrapper>
       <LiveContainer>
-        <LiveTitle variant="h2" weight="normal">
+        <LiveTitle variant="h2" forwardAs="h2" weight={400}>
           <span>Live</span> Exemples
         </LiveTitle>
 
-        <ImageContainer >
+        <ImageContainer>
           <img
             src="https://i.ibb.co/23ZSKd0/all-animation-1.png"
             alt="animation"
@@ -31,44 +32,50 @@ const LiveExemples = () => {
         </ImageContainer>
 
         <ButtonWrapper>
-          <Button label="a-dance" onSet={() => setAnimation("a-dance")} />
-          <Button label="a-journal" onSet={() => setAnimation("a-journal")} />
-          <Button label="a-pulse" onSet={() => setAnimation("a-pulse")} />
+          <Button label="a-dance" onClick={() => setAnimation("a-dance")} />
+          <Button label="a-journal" onClick={() => setAnimation("a-journal")} />
+          <Button label="a-pulse" onClick={() => setAnimation("a-pulse")} />
         </ButtonWrapper>
         <ButtonWrapper>
           <Button
             label="a-pulse-slow"
-            onSet={() => setAnimation("a-pulse-slow")}
+            onClick={() => setAnimation("a-pulse-slow")}
           />
           <Button
             label="a-enter up bounce"
-            onSet={() => setAnimation("a-enter-up-bounce")}
+            onClick={() => setAnimation("a-enter-up-bounce")}
           />
           <Button
             label="a-enter down bounce"
-            onSet={() => setAnimation("a-enter-down-bounce")}
+            onClick={() => setAnimation("a-enter-down-bounce")}
           />
           <Button
             label="a-enter right bounce"
-            onSet={() => setAnimation("a-enter-right-bounce")}
+            onClick={() => setAnimation("a-enter-right-bounce")}
           />
         </ButtonWrapper>
         <ButtonWrapper>
-          <Button label="a-jamp" onSet={() => setAnimation("a-jamp")} />
+          <Button label="a-jamp" onClick={() => setAnimation("a-jamp")} />
           <Button
             label="a-four rock"
-            onSet={() => setAnimation("a-four-rock")}
+            onClick={() => setAnimation("a-four-rock")}
           />
           <Button
             label="a-jump bounce"
-            onSet={() => setAnimation("a-jump-bounce")}
+            onClick={() => setAnimation("a-jump-bounce")}
           />
           <Button
             label="a-scale bounce"
-            onSet={() => setAnimation("a-scale-bounce")}
+            onClick={() => setAnimation("a-scale-bounce")}
           />
         </ButtonWrapper>
-        <Button label="more 30+ animations" outline />
+
+        <OutlineWrapper>
+          <OutlineButton href="/docs/animation-classes">
+            more 30+ animations
+          </OutlineButton>
+          <Arrow />
+        </OutlineWrapper>
       </LiveContainer>
     </LiveWrapper>
   );

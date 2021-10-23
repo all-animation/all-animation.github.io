@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { commonButtonStyles } from "../Button/styled";
 import Typography from "../Typography";
 
 export const LiveWrapper = styled.section`
   min-height: calc(100vh - 20rem);
   display: flex;
   align-items: center;
-  margin: 2.8rem 0;
+  margin: 224px 0;
 `;
 
 export const LiveContainer = styled.article`
@@ -32,4 +33,20 @@ export const LiveTitle = styled(Typography)`
 export const ButtonWrapper = styled.div`
   width: 100%;
   max-width: 1092px;
+`;
+
+export const OutlineButton = styled.a`
+  ${commonButtonStyles};
+  background: none;
+  color: ${({ theme }) => theme.colors.secondary.dark};
+  border-bottom: 1px solid;
+  border-color: ${({ theme }) => theme.colors.secondary.dark};
+  text-decoration: none;
+`;
+
+export const OutlineWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 `;
