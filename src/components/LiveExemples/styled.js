@@ -14,6 +14,12 @@ export const LiveContainer = styled.article`
   text-align: -webkit-center;
 `;
 
+export const ImageContainer = styled.div`
+  margin: 2.8rem 0px;
+  width: 100%;
+  max-width: 46rem;
+`;
+
 export const LiveTitle = styled(Typography)`
   max-width: 763px;
   color: ${({ theme }) => theme.colors.primary};

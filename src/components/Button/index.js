@@ -3,14 +3,14 @@ import Arrow from "./icon/arrow";
 
 import { ButtonStyled, OutlineButton, OutlineWrapper } from "./styled";
 
-const Button = ({ label, outline }) => {
+const Button = ({ label, outline, onSet }) => {
   return outline ? (
     <OutlineWrapper>
-      <OutlineButton>{label}</OutlineButton>
+      <OutlineButton onClick={onSet}>{label}</OutlineButton>
       <Arrow />
     </OutlineWrapper>
   ) : (
-    <ButtonStyled>{label}</ButtonStyled>
+    <ButtonStyled onClick={onSet}>{label}</ButtonStyled>
   );
 };
 
