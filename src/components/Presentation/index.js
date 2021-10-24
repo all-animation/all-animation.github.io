@@ -45,7 +45,7 @@ function Presentation() {
         your project.
       </PresentationDescription>
 
-      <TriangleMotion index={2} style={{ translateY: bigTriangleTransition }}>
+      <TriangleMotion index={1} style={{ translateY: bigTriangleTransition }}>
         <BigTriangle />
       </TriangleMotion>
 
