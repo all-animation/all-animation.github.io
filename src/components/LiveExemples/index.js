@@ -71,9 +71,7 @@ const LiveExemples = () => {
         </ButtonWrapper>
 
         <OutlineWrapper>
-          <OutlineButton href="/docs/animation-classes">
-            more 30+ animations
-          </OutlineButton>
+          <OutlineButton href="/animations">View all animations</OutlineButton>
           <Arrow />
         </OutlineWrapper>
       </LiveContainer>
