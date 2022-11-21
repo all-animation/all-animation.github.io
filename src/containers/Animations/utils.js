@@ -15,6 +15,10 @@ export const animations = [
     classes: ["a-flip-top", "a-flip-left", "a-flip-right", "a-flip-bottom"],
   },
   {
+    label: "Jello",
+    classes: ["a-jello-vertical", "a-jello-horizontal"],
+  },
+  {
     label: "Rotate",
     classes: ["a-rotate-flip-down", "a-rotate-down-bounce", "a-rotate-out"],
   },
@@ -33,5 +37,18 @@ export const animations = [
       "a-three-flip-up",
       "a-three-flip-down",
     ],
+  },
+  {
+    label: "Wobble",
+    classes: [
+      "a-wobble-bottom",
+      "a-wobble-top",
+      "a-wobble-left",
+      "a-wobble-right",
+    ],
+  },
+  {
+    label: "Vibrate",
+    classes: ["a-vibrate-low", "a-vibrate-medium", "a-vibrate-high"],
   },
 ];

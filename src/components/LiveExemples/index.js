@@ -35,6 +35,14 @@ const LiveExemples = () => {
           <Button label="a-dance" onClick={() => setAnimation("a-dance")} />
           <Button label="a-journal" onClick={() => setAnimation("a-journal")} />
           <Button label="a-pulse" onClick={() => setAnimation("a-pulse")} />
+          <Button
+            label="a-jello-vertical"
+            onClick={() => setAnimation("a-jello-vertical")}
+          />
+          <Button
+            label="a-jello-horizontal"
+            onClick={() => setAnimation("a-jello-horizontal")}
+          />
         </ButtonWrapper>
         <ButtonWrapper>
           <Button
