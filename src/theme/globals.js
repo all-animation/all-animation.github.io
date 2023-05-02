@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
+import { globals } from "./index";
 
 const GlobalStyles = createGlobalStyle`
+    ${globals}
+
     * {
         box-sizing: border-box;
     }
