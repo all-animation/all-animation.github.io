@@ -56,3 +56,40 @@ export const HighlightDescription = styled(Typography)`
     }
   }
 `;
+
+export const AdSection = styled.div`
+  margin-top: 3rem;
+  max-width: 728px;
+`;
+
+export const AdLabel = styled.p`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  font-family: ${({ theme }) => theme.fonts.roboto};
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: rgba(200, 204, 212, 0.45);
+
+  svg {
+    color: ${({ theme }) => theme.colors.primary};
+    opacity: 0.6;
+  }
+`;
+
+export const AdContainer = styled.div`
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  padding: 0.75rem;
+
+  ins {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+`;

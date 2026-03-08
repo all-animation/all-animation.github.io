@@ -8,13 +8,12 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "npm run clean && npm run build && gh-pages -d public -b master",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "deploy": "yarn clean && yarn build && gh-pages -d public -b master",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
-    
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -38,7 +37,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.3.1",
-    "styled-tools-core": "^1.0.3"
+    "styled-tools-core": "^1.0.3",
+    "gsap": "^3.12.5"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
