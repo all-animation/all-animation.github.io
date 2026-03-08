@@ -6,7 +6,7 @@ import {
 } from "./variants";
 
 const getLinkStyles = css`
-  transition: ease-out 0.5s all;
+  transition: ease-out 0.3s all;
   text-decoration: none;
   box-shadow: 0 2px 0 transparent;
 `;
@@ -19,12 +19,12 @@ export const TypographText = styled.p`
 
   ${getTypographyVariants}
   ${({ as }) => as === "a" && getLinkStyles}
-  
+
   &:hover {
     ${({ as, theme, color }) =>
       as === "a" &&
       `
-      box-shadow: 0 2px 0 ${theme.colors[color] || theme.colors.dark};
+      box-shadow: 0 2px 0 ${theme.colors[color] || theme.colors.primary};
   `}
   }
 

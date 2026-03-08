@@ -1,5 +1,6 @@
 const fonts = {
-  roboto: "Roboto",
+  roboto: "'Plus Jakarta Sans', sans-serif",
+  display: "'Bricolage Grotesque', sans-serif",
 };
 
 export default fonts;

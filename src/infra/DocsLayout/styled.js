@@ -5,11 +5,11 @@ export const DocsLayoutContainer = styled.section`
 `;
 
 export const DocsLayoutGird = styled.div`
-  border-top: solid 1px ${({ theme }) => theme.colors.light};
+  border-top: solid 1px ${({ theme }) => theme.colors.stone};
 
-  padding-top: 6rem;
+  padding-top: 4rem;
   display: grid;
-  grid-template-columns: 337px 0.9fr;
+  grid-template-columns: 300px 1fr;
   grid-column-gap: 5vw;
   grid-template-rows: auto;
 
@@ -23,25 +23,30 @@ export const DocsLayoutArticle = styled.article`
 
   > div {
     font-family: ${({ theme }) => theme.fonts.roboto};
-    color: #000;
+    color: ${({ theme }) => theme.colors.dark};
 
     pre {
       overflow: auto;
-      border-radius: 4px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
     h2 {
-      color: ${({ theme }) => theme.colors.dark};
+      color: #fff;
+      font-family: ${({ theme }) => theme.fonts.display};
     }
 
     h3 {
-      border-bottom: solid 1px ${({ theme }) => theme.colors.light};
+      border-bottom: solid 1px ${({ theme }) => theme.colors.stone};
       padding-bottom: 1rem;
-      margin-top: 5rem;
+      margin-top: 4rem;
+      color: #fff;
+      font-family: ${({ theme }) => theme.fonts.display};
     }
 
     h4 {
       margin-bottom: 1rem;
+      color: #e0e0e0;
     }
 
     h2,
@@ -49,47 +54,45 @@ export const DocsLayoutArticle = styled.article`
     h4,
     h5,
     h6 {
-      font-weight: 500;
+      font-weight: 600;
     }
 
     h1 {
-      font-weight: 500;
-      font-size: 106px;
-      line-height: 106px;
+      font-family: ${({ theme }) => theme.fonts.display};
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      color: #fff;
     }
 
     h2 {
-      font-weight: 500;
-      font-size: 64px;
+      font-size: 48px;
     }
 
     h3 {
-      font-weight: 500;
-      line-height: 50px;
-      font-size: 36px;
+      line-height: 1.3;
+      font-size: 32px;
     }
 
     h4 {
-      font-weight: 500;
-      font-size: 28px;
-    }
-
-    h5 {
-      font-weight: 500;
       font-size: 24px;
     }
 
+    h5 {
+      font-size: 20px;
+    }
+
     h6 {
-      font-weight: 500;
-      font-size: 21px;
+      font-size: 18px;
     }
 
     p,
     a,
     li,
     span {
-      font-size: 24px;
-      line-height: 36px;
+      font-size: 18px;
+      line-height: 1.7;
     }
 
     a,
@@ -98,14 +101,16 @@ export const DocsLayoutArticle = styled.article`
     }
 
     p > code {
-      background: ${({ theme }) => theme.colors.stone};
-      padding: 4px 0.5rem;
-      border-radius: 4px;
-      color: ${({ theme }) => theme.colors.dark};
+      background: ${({ theme }) => theme.colors.bgElevated};
+      border: 1px solid ${({ theme }) => theme.colors.stone};
+      padding: 3px 8px;
+      border-radius: 6px;
+      color: ${({ theme }) => theme.colors.primary};
+      font-size: 0.9em;
     }
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
   }
 `;

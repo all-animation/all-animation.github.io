@@ -1,14 +1,19 @@
 const colors = {
   secondary: {
-    light: "#65DAFF",
-    dark: "#00A9DE",
+    light: "#00d4ff",
+    dark: "#0099cc",
   },
-  primary: "#00D76B",
-  dark: "#333",
+  primary: "#00ff6a",
+  dark: "#c8ccd4",
   white: "#fff",
-  light: "#ECECEC",
-  stone: "#ddd",
+  light: "#1a1d27",
+  stone: "#2a2d3a",
   black: "#000",
+  bg: "#090b10",
+  bgCard: "#0f1218",
+  bgElevated: "#141820",
+  muted: "#6b7280",
+  accent: "#ff3d71",
 };
 
 export default colors;

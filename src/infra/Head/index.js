@@ -26,6 +26,11 @@ export default function Head({ location }) {
         name="twitter:image:src"
         content="http://all-animation.github.io/assets/images/all-animation.png"
       />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1694357110489226"
+        crossOrigin="anonymous"
+      />
     </Helmet>
   );
 }

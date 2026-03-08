@@ -4,6 +4,7 @@ import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 import Button from "../../components/Button";
 import Typography from "../../components/Typography";
+import GeometricShape from "../../components/GeometricShape";
 
 import {
   AnimationsWrapper,
@@ -43,12 +44,8 @@ function Animations() {
           ))}
         </AnimationsButtonsContainer>
         <AnimationsFigure>
-          <div className="a-perspective">
-            <img
-              className={animation}
-              src="https://i.ibb.co/23ZSKd0/all-animation-1.png"
-              alt="animation"
-            />
+          <div className={`a-perspective ${animation}`}>
+            <GeometricShape />
           </div>
         </AnimationsFigure>
       </AnimationsWrapper>

@@ -14,24 +14,32 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html {
-        scrollBehavior: smooth;
+        scroll-behavior: smooth;
     }
 
+    body {
+        background-color: #090b10;
+        color: #c8ccd4;
+        scrollbar-width: thin;
+        scrollbar-color: #00ff6a #090b10;
+    }
 
     body::-webkit-scrollbar {
         width: 6px;
     }
-    body {
-        scrollbar-width: thin;
-        scrollbar-color: #333 #333;
-    }
+
     body::-webkit-scrollbar-track {
-        background: #333;
+        background: #090b10;
     }
+
     body::-webkit-scrollbar-thumb {
-        background-color: #2dff96;
+        background: linear-gradient(180deg, #00ff6a, #00d4ff);
         border-radius: 20px;
-        border: 3px solid #00D76B;
+    }
+
+    ::selection {
+        background: rgba(0, 255, 106, 0.25);
+        color: #fff;
     }
 `;
 

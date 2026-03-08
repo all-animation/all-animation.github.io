@@ -25,7 +25,7 @@ const skyMotion = keyframes`
 
 const commonSkyStyles = css`
   display: block;
-  background: ${({ theme }) => theme.colors.secondary.light};
+  background: rgba(0, 212, 255, 0.15);
   border-radius: 100%;
 `;
 
