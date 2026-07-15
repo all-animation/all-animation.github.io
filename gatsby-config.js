@@ -8,12 +8,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-styled-components",
     {
-      resolve: "gatsby-plugin-google-adsense",
-      options: {
-        publisherId: "ca-pub-1694357110489226",
-      },
-    },
-    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "UA-47249089-1",
